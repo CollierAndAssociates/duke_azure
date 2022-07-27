@@ -32,9 +32,9 @@ jobs:
           
       - name: Lint
         run: |
-          make Lint
+          make lint
       
       - name: Test
         run: |
-          make Test
+          make test
       
